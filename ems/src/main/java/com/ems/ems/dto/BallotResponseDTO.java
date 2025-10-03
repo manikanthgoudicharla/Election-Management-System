@@ -12,4 +12,5 @@ public class BallotResponseDTO {
     private String electionId;
     private String voterId;
     private String candidateId;
+    private String partyId;
 }

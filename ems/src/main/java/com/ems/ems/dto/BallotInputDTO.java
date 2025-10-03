@@ -18,4 +18,7 @@ public class BallotInputDTO {
 
     @NotBlank(message = "Candidate ID is required")
     private String candidateId;
+
+    @NotBlank(message = "party ID is required")
+    private String partyId;
 }

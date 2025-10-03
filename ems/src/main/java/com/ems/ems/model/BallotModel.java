@@ -16,5 +16,6 @@ public class BallotModel {
     private String electionId;
     private String voterId;
     private String candidateId;
+    private String partyId;
 }
 

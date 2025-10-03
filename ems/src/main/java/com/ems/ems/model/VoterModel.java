@@ -14,7 +14,6 @@ public class VoterModel {
 
     @Id
     private String voterId;
-
     private String voterName;
     private String email;
     private String voterIdentificationNumber;

@@ -23,6 +23,7 @@ public class PartyInputDTO {
     @NotBlank( message = "The partyName cannot be Blank !")
     @Size(max=100)
     private String partyName;
+    
 
     @NotBlank( message = "The leaderName cannot be Blank !")
     @Size(max=100)
